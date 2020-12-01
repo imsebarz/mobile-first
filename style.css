@@ -1,0 +1,40 @@
+/* 
+
+1. Posicionamiento
+2. Box-model
+3. Tipografía
+4. Visual
+5. Otros
+
+*/
+
+:root {
+  --font-sans: "DM Sans", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --size-300: 300;
+  --size-400: 400;
+  --size-500: 500;
+  --size-700: 700;
+  --background: #e5e5e5;
+  --linear-gradient: 207.8deg, #201e1c 16.69%, #f7931a 100%;
+  --bitcoin-orage: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #ffe9d5;
+  --soft-blue: #e7f5ff;
+  --warm-black: #201e1c;
+  --black: #282623;
+  --gray: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}

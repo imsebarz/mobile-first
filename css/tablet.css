@@ -1,3 +1,16 @@
+html {
+  font-size: 70%;
+}
+
+header img {
+  width: 170px;
+  height: 30px;
+}
+
+.header--title-container h1 {
+  font-size: 3rem;
+}
+
 .product-card-container {
   display: flex;
   flex-wrap: wrap;
@@ -7,6 +20,8 @@
 
 .plans-slider {
   justify-content: center;
+  overflow: auto;
+  gap: 20px;
 }
 
 .main-tables-container {
